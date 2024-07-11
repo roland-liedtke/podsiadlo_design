@@ -1,7 +1,5 @@
-// Step 1: Import React
 import * as React from 'react'
 
-// Step 2: Define your component
 const ContactPage = () => {
   return (
     <main>
@@ -11,5 +9,6 @@ const ContactPage = () => {
   )
 }
 
-// Step 3: Export your component
+export const Head = () => <title> Podsiadło Design - Kontakt </title>
+
 export default ContactPage

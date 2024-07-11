@@ -1,14 +1,11 @@
-// Step 1: Import React
-import * as React from 'react'
-import { button } from './roundedButton.module.css'
+import React from "react";
 
-
-// Step 2: Define your component
 const RoundedButton = () => {
-  return (
-    <button className={ button }>Zamów projekt</button>
-  )
+    return (
+        <div className="text-center">
+            <button className="rounded">Zamów projekt</button>
+        </div>
+    )
 }
 
-// Step 3: Export your component
 export default RoundedButton
