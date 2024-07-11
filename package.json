@@ -1,8 +1,8 @@
 {
-  "name": "podsiad-o-design",
+  "name": "podsiadlo-design",
   "version": "1.0.0",
   "private": true,
-  "description": "podsiad-o-design",
+  "description": "podsiadlo-design",
   "author": "s28961-pj",
   "keywords": [
     "gatsby"
@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "gatsby": "^5.13.5",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
